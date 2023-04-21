@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 
-
 <html lang="en">
 <head id="Head1" runat="server">
     <title><%: Page.Title %> - MHADA - Estate Management & Conveyance</title>
@@ -16,8 +15,6 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js" type="text/javascript"></script>
      <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"
         type="text/javascript"></script>
-
-
 
 
     <%--   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -46,39 +43,92 @@
                 
                
                 <li>
-                    <a href="Society_Dashboard.aspx" ><i class="fa fa-solid fa-tv" style="font-size:24px;color:orange;"></i>&nbsp;  Dashboard</a>
+                    <a href="Default.aspx" ><i class="fa fa-solid fa-tv" style="font-size:24px;color:orange;"></i>&nbsp;  Dashboard</a>
                 </li> 
-                <%--<li>
-                    <a href="Society_Application.aspx" ><i class="fa fa-eye" style="font-size:24px;color:orange;"></i>&nbsp;   Application</a>
-                </li> --%>
-                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-university" style="font-size:24px;color:orange"></i> &nbsp; Application</a>
+                 
+
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-university" style="font-size:24px;color:orange"></i> &nbsp; Redevelopment</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="Society_Application.aspx" > <i class="fa fa-home" style="font-size:24px;color:orange"></i> &nbsp; Society Conveynace</a>
+                            <a href="Add_Layout.aspx" > <i class="fa fa-plus-square" style="font-size:24px;color:orange"></i> &nbsp; Self Redevelopment</a>
                         </li>
                         <li>
-                            <a href="Society_Formation_Application.aspx" > <i class="fa fa-home" style="font-size:24px;color:orange"></i> &nbsp; Society Formation</a>
-                        </li>
-                         <li>
-                            <a href="Society_Renewal_Application.aspx" > <i class="fa fa-home" style="font-size:24px;color:orange"></i> &nbsp; Renewal Of Post Lease Agreement</a>
+                            <a href="View_layout.aspx" > <i class="fa fa-eye" style="font-size:24px;color:orange"></i> &nbsp; Redevelopment Thorugh Developer</a>
                         </li>
 
                     </ul>
                 </li>
 
-                <li>
+                 <li>
+                    <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-university" style="font-size:24px;color:orange"></i> &nbsp; Estate & Conveyance</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu1">
+                        <li>
+                            <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" > <i class="fa fa-plus-square" style="font-size:24px;color:orange"></i> &nbsp; Society Formation</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu2">
+                                <li>
+                            <a href="View_layout.aspx" > <i class="fa fa-eye" style="font-size:24px;color:orange"></i> &nbsp; Apply For Formation Of Society</a>
+                                </li>
+                                </ul>
+                        </li>
 
-                    <a href="Profile.aspx" ><i class="fa fa-file" style="font-size:24px;color:orange;"></i>&nbsp; Profile</a>
+                         <li>
+                            <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" > <i class="fa fa-plus-square" style="font-size:24px;color:orange"></i> &nbsp; Conveyance</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu3">
+                                <li>
+                            <a href="View_layout.aspx" > <i class="fa fa-eye" style="font-size:24px;color:orange"></i> &nbsp; Apply For Formation Of Society</a>
+                                </li>
+                                </ul>
+                        </li>
+
+                         <li>
+                            <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" > <i class="fa fa-plus-square" style="font-size:24px;color:orange"></i> &nbsp; Renewal Of Lease</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu4">
+                                <li>
+                            <a href="View_layout.aspx" > <i class="fa fa-eye" style="font-size:24px;color:orange"></i> &nbsp; Apply For Formation Of Society</a>
+                                </li>
+                                </ul>
+                        </li>
+
+                    </ul>
                 </li>
-              
                
                 <li>
-                    <a href="Login.aspx"> <i class="fa fa-sign-out" style="font-size:24px;color:orange" aria-hidden="true"></i> &nbsp; Logout</a>
+                    <a href="Jr_Archi_Scrutiny_All.aspx"> <i class="fa fa-user" style="font-size:24px;color:orange" aria-hidden="true"></i> &nbsp; Profile</a>
+                </li>
+                <li>
+                    <a href="Jr_Ar_Lay_Exc.aspx"> <i class="fa fa-file-excel-o" style="font-size:24px;color:orange" aria-hidden="true"></i> &nbsp; List Of Applications</a>
+                </li>
+                
+                <li>
+                    <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-university" style="font-size:24px;color:orange"></i> &nbsp; Actions</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu5">
+                        <li>
+                            <a href="#pageSubmenu6" > <i class="fa fa-plus-square" style="font-size:24px;color:orange"></i> &nbsp; View Application</a>
+                            
+                        </li>
+
+                         <li>
+                            <a href="#pageSubmenu7"  > <i class="fa fa-plus-square" style="font-size:24px;color:orange"></i> &nbsp; Upload Singed Application</a>
+                            
+                        </li>
+
+                         
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="Default.aspx" ><i class="fa fa-file"" style="font-size:24px;color:orange;"></i>&nbsp;  Reports</a>
+                </li> 
+
+            <li>
+                    <a href="Default.aspx" ><i class="fa fa-sign-out" style="font-size:24px;color:orange;"></i>&nbsp;  Logout</a>
                 </li>
 
             </ul>
 
+             
             
         </nav>
 
@@ -99,15 +149,15 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#"><i class="fa fa-user-circle" style="font-size:20px;color:orange"></i> &nbsp;Sagar: User (Society)</a>
+                                <a class="nav-link" href="#"><i class="fa fa-user-circle" style="font-size:20px;color:orange"></i> &nbsp;Sagar: Estate & Conveyance</a>
                             </li>
-                       
+                         
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="container-fluid">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
                        </asp:ContentPlaceHolder>
                 </div>
 
@@ -121,6 +171,7 @@
                 <p style="color:black; float:right;">&copy; Trilocode Technology <%: DateTime.Now.Year %> - MHADA </p>
             </footer>
         </div>
+
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Popper.JS -->

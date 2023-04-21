@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/EE.Master" CodeBehind="EE_Renewal_Application.aspx.cs" Inherits="EstateConveyance.EE_Renewal_Application" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="EE.Master" CodeBehind="EE_Renewal_Application.aspx.cs" Inherits="EstateConveyance.EE_Renewal_Application" %>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -88,7 +88,7 @@
                     </div>
                 <h6>New Application</h6>
            </div>
-           <div class="col-md-3 mb-3 card">
+           <div class="col-md-3 mb-3 card"> 
               <div class="row">  <img src="Images/green.png" style="height:50px; width:50px;margin:8px;" /> &nbsp; <h3>8</h3> </div>
                 <h6>Scrutiny Pending</h6>
            </div>

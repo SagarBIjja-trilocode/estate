@@ -4,11 +4,6 @@
     overflow-x: hidden;
 }
 
-a
-{
-    color:green;
-}
-
 #sidebar-wrapper {
     min-height: 100vh;
     margin-left: -14rem;
@@ -31,9 +26,6 @@ a
     }
     #bg-light {
     background-color: #f79c31!important;
-    }
-    #a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover {
-    background-color: #3ee733!important;
     }
 #page-content-wrapper
 {

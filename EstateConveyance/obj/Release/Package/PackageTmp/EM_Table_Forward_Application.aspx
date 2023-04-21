@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="~/EM_Table_Forward_Application.aspx.cs" Inherits="EstateConveyance.EM_Table_Forward_Application" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EM_Table_Forward_Application.aspx.cs" Inherits="EstateConveyance.EM_Table_Forward_Application" %>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

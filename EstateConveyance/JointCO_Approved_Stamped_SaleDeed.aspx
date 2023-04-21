@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Joint_CO.Master" CodeBehind="JointCO_Approved_Stamped_SaleDeed.aspx.cs" Inherits="EstateConveyance.JointCO_Approved_Stamped_SaleDeed" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="Joint_CO.Master" CodeBehind="JointCO_Approved_Stamped_SaleDeed.aspx.cs" Inherits="EstateConveyance.JointCO_Approved_Stamped_SaleDeed" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

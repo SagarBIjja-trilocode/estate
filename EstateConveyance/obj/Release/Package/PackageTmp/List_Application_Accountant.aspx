@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Accountant.Master" CodeBehind="List_Application_Accountant.aspx.cs" Inherits="EstateConveyance.List_Application_Accountant" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="Accountant.Master" CodeBehind="List_Application_Accountant.aspx.cs" Inherits="EstateConveyance.List_Application_Accountant" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <form class="needs-validation" novalidate>

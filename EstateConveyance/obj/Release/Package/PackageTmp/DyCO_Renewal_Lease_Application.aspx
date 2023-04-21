@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/DyCO_DyCDO.Master" CodeBehind="DyCO_Renewal_Lease_Application.aspx.cs" Inherits="EstateConveyance.DyCO_Renewal_Lease_Application" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="DyCO_DyCDO.Master" CodeBehind="DyCO_Renewal_Lease_Application.aspx.cs" Inherits="EstateConveyance.DyCO_Renewal_Lease_Application" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -71,25 +71,24 @@
     <div class="row card" style="width:100%; margin-left:10px; padding:15px;">
        <center> <h3 style="color:#ff8d00;">List of Application</h3><hr></center>
 
-         <div class="row">
-            <div class="col-md-3 mb-2">
-                <img src="Images/red.png" style="height:30px; width:30px" />
+         <div class="row" style=" padding:5px;">
+          <div class="col-md-3 mb-3 card">
+             <div class="row">
+                 <img src="Images/red.png" style="height:50px; width:50px; margin:8px;" /> &nbsp; <h3>10</h3>
+                    </div>
                 <h6>New Application</h6>
            </div>
-   
-            <div class="col-md-3 mb-2">
-                <img src="Images/blue.png" style="height:30px; width:30px" />
+           <div class="col-md-3 mb-3 card"> 
+              <div class="row">  <img src="Images/green.png" style="height:50px; width:50px;margin:8px;" /> &nbsp; <h3>8</h3> </div>
                 <h6>Scrutiny Pending</h6>
            </div>
-
-           
-            <div class="col-md-3 mb-2">
-                <img src="Images/yellow.png" style="height:30px; width:30px" />
-                <h6>Application Forwarded</h6>
+             <div class="col-md-3 mb-3 card">
+              <div class="row">  <img src="Images/blue.png" style="height:50px; width:50px;margin:8px;" /> &nbsp; <h3>4</h3> </div>
+                <h6>Sent for Compliance</h6>
            </div>
-              <div class="col-md-3 mb-2">
-                <img src="Images/green.png" style="height:30px; width:30px" />
-                <h6>Sent for Revision</h6>
+            <div class="col-md-3 mb-3 card">
+              <div class="row">  <img src="Images/yellow.png" style="height:50px; width:50px;margin:8px;" /> &nbsp; <h3>2</h3> </div>
+                <h6>Application Forwarded</h6>
            </div>
         </div>
 

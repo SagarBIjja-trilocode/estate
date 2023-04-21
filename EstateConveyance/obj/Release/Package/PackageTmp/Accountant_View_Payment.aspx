@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Accountant.Master" CodeBehind="Accountant_View_Payment.aspx.cs" Inherits="EstateConveyance.Accountant_View_Payment" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="Accountant.Master" CodeBehind="Accountant_View_Payment.aspx.cs" Inherits="EstateConveyance.Accountant_View_Payment" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

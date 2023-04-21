@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/EM.Master" CodeBehind="EM_Approved_List_Tenements.aspx.cs" Inherits="EstateConveyance.EM_Approved_List_Tenements" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="EM.Master" CodeBehind="EM_Approved_List_Tenements.aspx.cs" Inherits="EstateConveyance.EM_Approved_List_Tenements" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br>

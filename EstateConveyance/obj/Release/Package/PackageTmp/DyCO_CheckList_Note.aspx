@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/DyCO_DyCDO.Master" CodeBehind="DyCO_CheckList_Note.aspx.cs" Inherits="EstateConveyance.DyCO_CheckList_Note" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="DyCO_DyCDO.Master" CodeBehind="DyCO_CheckList_Note.aspx.cs" Inherits="EstateConveyance.DyCO_CheckList_Note" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/EM.Master" CodeBehind="EM_List_Application.aspx.cs" Inherits="EstateConveyance.EM_List_Application" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="EM.Master" CodeBehind="EM_List_Application.aspx.cs" Inherits="EstateConveyance.EM_List_Application" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -100,6 +100,7 @@
                 <h6>Application Forwarded</h6>
            </div>
         </div>
+
         <div class="row col-md-12 mb-2 text-right">
 
             <div class="col-md-2 mb-1 text-right">

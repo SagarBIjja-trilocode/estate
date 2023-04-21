@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="~/Society_Login.aspx.cs" Inherits="EstateConveyance.Society_Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Society_Login.aspx.cs" Inherits="EstateConveyance.Society_Login" %>
 
 <!DOCTYPE html>
 

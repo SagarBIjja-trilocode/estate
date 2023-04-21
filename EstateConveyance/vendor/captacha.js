@@ -1,3 +1,4 @@
+
 var captcha;
 function generate() {
 
@@ -32,11 +33,11 @@ function printmsg() {
 	if (usr_input == captcha.innerHTML) {
 		var s = document.getElementById("key")
 			.innerHTML = "Matched";
-		
+		generate();
 	}
 	else {
 		var s = document.getElementById("key")
 			.innerHTML = "not Matched";
-		
+		generate();
 	}
 }

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/Society.Master" CodeBehind="remove_upload.aspx.cs" Inherits="EstateConveyance.remove_upload" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="Society.Master" CodeBehind="remove_upload.aspx.cs" Inherits="EstateConveyance.remove_upload" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

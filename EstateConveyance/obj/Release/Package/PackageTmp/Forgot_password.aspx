@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="~/Forgot_password.aspx.cs" Inherits="EstateConveyance.Forgot_password" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Forgot_password.aspx.cs" Inherits="EstateConveyance.Forgot_password" %>
 
 <!DOCTYPE html>
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/LA.Master" CodeBehind="LeagalAdvisor_Dashboard.aspx.cs" Inherits="EstateConveyance.LeagalAdvisor_Dashboard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="LA.Master" CodeBehind="LeagalAdvisor_Dashboard.aspx.cs" Inherits="EstateConveyance.LeagalAdvisor_Dashboard" %>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
